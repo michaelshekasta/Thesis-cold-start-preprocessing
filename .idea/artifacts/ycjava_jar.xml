@@ -1,0 +1,51 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="ycjava:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/ycjava_jar</output-path>
+    <root id="archive" name="ycjava.jar">
+      <element id="module-output" name="ycjava" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/jars/javax.mail.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/jars/derbyLocale_it.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/jars/derbyLocale_zh_TW.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/jars/postgresql-9.4.1209.jre6.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/jars/derbyLocale_es.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/jars/derbyclient.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/jars/derbyLocale_fr.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/jars/derbytools.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/jars/derbyLocale_zh_CN.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/jars/derbynet.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/jars/derbyLocale_pl.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/jars/derby.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/jars/derbyLocale_cs.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/jars/derbyLocale_ru.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/jars/derbyoptionaltools.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/jars/derbyrun.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/jars/derbyLocale_pt_BR.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/jars/derbyLocale_hu.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/jars/derbyLocale_ko_KR.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/jars/derbyLocale_de_DE.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/jars/derbyLocale_ja_JP.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/classes/artifacts/YooChoseAnalytics_jar/derbyLocale_ko_KR.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/classes/artifacts/YooChoseAnalytics_jar/derbytools.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/classes/artifacts/YooChoseAnalytics_jar/derbyLocale_es.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/classes/artifacts/YooChoseAnalytics_jar/YooChoseAnalytics.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/classes/artifacts/YooChoseAnalytics_jar/derbyLocale_zh_CN.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/classes/artifacts/YooChoseAnalytics_jar/derbyLocale_hu.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/classes/artifacts/YooChoseAnalytics_jar/derbyLocale_ru.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/classes/artifacts/YooChoseAnalytics_jar/derbyLocale_fr.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/classes/artifacts/YooChoseAnalytics_jar/derbyLocale_pt_BR.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/classes/artifacts/YooChoseAnalytics_jar/derbyLocale_zh_TW.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/classes/artifacts/YooChoseAnalytics_jar/derbyLocale_it.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/classes/artifacts/YooChoseAnalytics_jar/derby.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/classes/artifacts/YooChoseAnalytics_jar/javax.mail.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/classes/artifacts/YooChoseAnalytics_jar/derbynet.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/classes/artifacts/YooChoseAnalytics_jar/derbyrun.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/classes/artifacts/YooChoseAnalytics_jar/derbyLocale_ja_JP.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/classes/artifacts/YooChoseAnalytics_jar/postgresql-9.4.1209.jre6.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/classes/artifacts/YooChoseAnalytics_jar/derbyLocale_de_DE.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/classes/artifacts/YooChoseAnalytics_jar/derbyclient.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/classes/artifacts/YooChoseAnalytics_jar/derbyLocale_cs.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/classes/artifacts/YooChoseAnalytics_jar/derbyoptionaltools.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/classes/artifacts/YooChoseAnalytics_jar/derbyLocale_pl.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>

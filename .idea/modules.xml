@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/Thesis-cold-start-preprocessing.iml" filepath="$PROJECT_DIR$/Thesis-cold-start-preprocessing.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ycjava.iml" filepath="$PROJECT_DIR$/ycjava.iml" />
     </modules>
   </component>
 </project>
