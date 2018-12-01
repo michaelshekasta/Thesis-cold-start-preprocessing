@@ -1,0 +1,30 @@
+<component name="libraryTable">
+  <library name="YooChoseAnalytics_jar">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/classes/artifacts/YooChoseAnalytics_jar/derbyLocale_ko_KR.jar!/" />
+      <root url="jar://$PROJECT_DIR$/classes/artifacts/YooChoseAnalytics_jar/derbytools.jar!/" />
+      <root url="jar://$PROJECT_DIR$/classes/artifacts/YooChoseAnalytics_jar/derbyLocale_es.jar!/" />
+      <root url="jar://$PROJECT_DIR$/classes/artifacts/YooChoseAnalytics_jar/YooChoseAnalytics.jar!/" />
+      <root url="jar://$PROJECT_DIR$/classes/artifacts/YooChoseAnalytics_jar/derbyLocale_zh_CN.jar!/" />
+      <root url="jar://$PROJECT_DIR$/classes/artifacts/YooChoseAnalytics_jar/derbyLocale_hu.jar!/" />
+      <root url="jar://$PROJECT_DIR$/classes/artifacts/YooChoseAnalytics_jar/derbyLocale_ru.jar!/" />
+      <root url="jar://$PROJECT_DIR$/classes/artifacts/YooChoseAnalytics_jar/derbyLocale_fr.jar!/" />
+      <root url="jar://$PROJECT_DIR$/classes/artifacts/YooChoseAnalytics_jar/derbyLocale_pt_BR.jar!/" />
+      <root url="jar://$PROJECT_DIR$/classes/artifacts/YooChoseAnalytics_jar/derbyLocale_zh_TW.jar!/" />
+      <root url="jar://$PROJECT_DIR$/classes/artifacts/YooChoseAnalytics_jar/derbyLocale_it.jar!/" />
+      <root url="jar://$PROJECT_DIR$/classes/artifacts/YooChoseAnalytics_jar/derby.jar!/" />
+      <root url="jar://$PROJECT_DIR$/classes/artifacts/YooChoseAnalytics_jar/javax.mail.jar!/" />
+      <root url="jar://$PROJECT_DIR$/classes/artifacts/YooChoseAnalytics_jar/derbynet.jar!/" />
+      <root url="jar://$PROJECT_DIR$/classes/artifacts/YooChoseAnalytics_jar/derbyrun.jar!/" />
+      <root url="jar://$PROJECT_DIR$/classes/artifacts/YooChoseAnalytics_jar/derbyLocale_ja_JP.jar!/" />
+      <root url="jar://$PROJECT_DIR$/classes/artifacts/YooChoseAnalytics_jar/postgresql-9.4.1209.jre6.jar!/" />
+      <root url="jar://$PROJECT_DIR$/classes/artifacts/YooChoseAnalytics_jar/derbyLocale_de_DE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/classes/artifacts/YooChoseAnalytics_jar/derbyclient.jar!/" />
+      <root url="jar://$PROJECT_DIR$/classes/artifacts/YooChoseAnalytics_jar/derbyLocale_cs.jar!/" />
+      <root url="jar://$PROJECT_DIR$/classes/artifacts/YooChoseAnalytics_jar/derbyoptionaltools.jar!/" />
+      <root url="jar://$PROJECT_DIR$/classes/artifacts/YooChoseAnalytics_jar/derbyLocale_pl.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

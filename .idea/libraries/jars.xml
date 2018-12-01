@@ -1,0 +1,29 @@
+<component name="libraryTable">
+  <library name="jars">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/jars/javax.mail.jar!/" />
+      <root url="jar://$PROJECT_DIR$/jars/derbyLocale_it.jar!/" />
+      <root url="jar://$PROJECT_DIR$/jars/derbyLocale_zh_TW.jar!/" />
+      <root url="jar://$PROJECT_DIR$/jars/postgresql-9.4.1209.jre6.jar!/" />
+      <root url="jar://$PROJECT_DIR$/jars/derbyLocale_es.jar!/" />
+      <root url="jar://$PROJECT_DIR$/jars/derbyclient.jar!/" />
+      <root url="jar://$PROJECT_DIR$/jars/derbyLocale_fr.jar!/" />
+      <root url="jar://$PROJECT_DIR$/jars/derbytools.jar!/" />
+      <root url="jar://$PROJECT_DIR$/jars/derbyLocale_zh_CN.jar!/" />
+      <root url="jar://$PROJECT_DIR$/jars/derbynet.jar!/" />
+      <root url="jar://$PROJECT_DIR$/jars/derbyLocale_pl.jar!/" />
+      <root url="jar://$PROJECT_DIR$/jars/derby.jar!/" />
+      <root url="jar://$PROJECT_DIR$/jars/derbyLocale_cs.jar!/" />
+      <root url="jar://$PROJECT_DIR$/jars/derbyLocale_ru.jar!/" />
+      <root url="jar://$PROJECT_DIR$/jars/derbyoptionaltools.jar!/" />
+      <root url="jar://$PROJECT_DIR$/jars/derbyrun.jar!/" />
+      <root url="jar://$PROJECT_DIR$/jars/derbyLocale_pt_BR.jar!/" />
+      <root url="jar://$PROJECT_DIR$/jars/derbyLocale_hu.jar!/" />
+      <root url="jar://$PROJECT_DIR$/jars/derbyLocale_ko_KR.jar!/" />
+      <root url="jar://$PROJECT_DIR$/jars/derbyLocale_de_DE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/jars/derbyLocale_ja_JP.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

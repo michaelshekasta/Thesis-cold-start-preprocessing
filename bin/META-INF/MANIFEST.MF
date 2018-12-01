@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Class-Path: derby.jar derbynet.jar derbyrun.jar derbytools.jar javax.m
+ ail.jar derbyclient.jar derbyLocale_cs.jar derbyLocale_es.jar derbyLo
+ cale_fr.jar derbyLocale_hu.jar derbyLocale_it.jar derbyLocale_pl.jar 
+ derbyLocale_ru.jar derbyLocale_de_DE.jar derbyLocale_ja_JP.jar derbyL
+ ocale_ko_KR.jar derbyLocale_pt_BR.jar derbyLocale_zh_CN.jar derbyLoca
+ le_zh_TW.jar derbyoptionaltools.jar postgresql-9.4.1209.jre6.jar
+Main-Class: Main
+

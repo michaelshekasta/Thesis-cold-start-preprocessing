@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="module_yoochoseanalytics" default="compile.module.yoochoseanalytics">
+  <dirname property="module.yoochoseanalytics.basedir" file="${ant.file.module_yoochoseanalytics}"/>
+  
+  <property name="module.jdk.home.yoochoseanalytics" value="${project.jdk.home}"/>
+  <property name="module.jdk.bin.yoochoseanalytics" value="${project.jdk.bin}"/>
+  <property name="module.jdk.classpath.yoochoseanalytics" value="${project.jdk.classpath}"/>
+  
+  <property name="compiler.args.yoochoseanalytics" value="-encoding windows-1252 -source 1.8 -target 1.8 ${compiler.args}"/>
+  
+  <property name="yoochoseanalytics.output.dir" value="${module.yoochoseanalytics.basedir}/bin"/>
+  <property name="yoochoseanalytics.testoutput.dir" value="${module.yoochoseanalytics.basedir}/bin"/>
+  
+  <path id="yoochoseanalytics.module.bootclasspath">
+    <!-- Paths to be included in compilation bootclasspath -->
+  </path>
+  
+  <path id="yoochoseanalytics.module.production.classpath">
+    <path refid="${module.jdk.classpath.yoochoseanalytics}"/>
+    <pathelement location="${path.variable.maven_repository}/org/deeplearning4j/deeplearning4j-core/0.4-rc3.9/deeplearning4j-core-0.4-rc3.9.jar"/>
+    <pathelement location="${path.variable.maven_repository}/org/deeplearning4j/deeplearning4j-nlp/0.4-rc3.9/deeplearning4j-nlp-0.4-rc3.9.jar"/>
+    <pathelement location="${path.variable.maven_repository}/org/nd4j/nd4j-api/0.4-rc3.9/nd4j-api-0.4-rc3.9.jar"/>
+    <pathelement location="${path.variable.maven_repository}/org/nd4j/canova-api/0.0.0.15/canova-api-0.0.0.15.jar"/>
+    <pathelement location="${path.variable.maven_repository}/org/slf4j/jcl-over-slf4j/1.7.10/jcl-over-slf4j-1.7.10.jar"/>
+    <pathelement location="${basedir}/../../Documents/code/Thesis-cold-start-preprocessing/jars/javax.mail.jar"/>
+    <pathelement location="${basedir}/../../Documents/softwares/derby/db-derby-10.12.1.1-bin/lib/derby.jar"/>
+    <pathelement location="${basedir}/../../Documents/softwares/derby/db-derby-10.12.1.1-bin/lib/derbyclient.jar"/>
+    <pathelement location="${basedir}/../../Documents/code/Thesis-cold-start-preprocessing/jars/postgresql-9.4.1209.jre6.jar"/>
+    <path refid="library.java_ee_6-java_ee_6.classpath"/>
+  </path>
+  
+  <path id="yoochoseanalytics.runtime.production.module.classpath">
+    <pathelement location="${yoochoseanalytics.output.dir}"/>
+    <pathelement location="${path.variable.maven_repository}/org/deeplearning4j/deeplearning4j-core/0.4-rc3.9/deeplearning4j-core-0.4-rc3.9.jar"/>
+    <pathelement location="${path.variable.maven_repository}/org/deeplearning4j/deeplearning4j-nlp/0.4-rc3.9/deeplearning4j-nlp-0.4-rc3.9.jar"/>
+    <pathelement location="${path.variable.maven_repository}/org/nd4j/nd4j-api/0.4-rc3.9/nd4j-api-0.4-rc3.9.jar"/>
+    <pathelement location="${path.variable.maven_repository}/org/nd4j/canova-api/0.0.0.15/canova-api-0.0.0.15.jar"/>
+    <pathelement location="${path.variable.maven_repository}/org/slf4j/jcl-over-slf4j/1.7.10/jcl-over-slf4j-1.7.10.jar"/>
+    <pathelement location="${basedir}/../../Documents/code/Thesis-cold-start-preprocessing/jars/javax.mail.jar"/>
+    <pathelement location="${basedir}/../../Documents/softwares/derby/db-derby-10.12.1.1-bin/lib/derby.jar"/>
+    <pathelement location="${basedir}/../../Documents/softwares/derby/db-derby-10.12.1.1-bin/lib/derbyclient.jar"/>
+    <pathelement location="${basedir}/../../Documents/code/Thesis-cold-start-preprocessing/jars/postgresql-9.4.1209.jre6.jar"/>
+    <path refid="library.java_ee_6-java_ee_6.classpath"/>
+  </path>
+  
+  <path id="yoochoseanalytics.module.classpath">
+    <pathelement location="${yoochoseanalytics.output.dir}"/>
+    <path refid="${module.jdk.classpath.yoochoseanalytics}"/>
+    <pathelement location="${path.variable.maven_repository}/org/deeplearning4j/deeplearning4j-core/0.4-rc3.9/deeplearning4j-core-0.4-rc3.9.jar"/>
+    <pathelement location="${path.variable.maven_repository}/org/deeplearning4j/deeplearning4j-nlp/0.4-rc3.9/deeplearning4j-nlp-0.4-rc3.9.jar"/>
+    <pathelement location="${path.variable.maven_repository}/org/nd4j/nd4j-api/0.4-rc3.9/nd4j-api-0.4-rc3.9.jar"/>
+    <pathelement location="${path.variable.maven_repository}/org/nd4j/canova-api/0.0.0.15/canova-api-0.0.0.15.jar"/>
+    <pathelement location="${path.variable.maven_repository}/org/slf4j/jcl-over-slf4j/1.7.10/jcl-over-slf4j-1.7.10.jar"/>
+    <pathelement location="${basedir}/../../Documents/code/Thesis-cold-start-preprocessing/jars/javax.mail.jar"/>
+    <pathelement location="${basedir}/../../Documents/softwares/derby/db-derby-10.12.1.1-bin/lib/derby.jar"/>
+    <pathelement location="${basedir}/../../Documents/softwares/derby/db-derby-10.12.1.1-bin/lib/derbyclient.jar"/>
+    <pathelement location="${basedir}/../../Documents/code/Thesis-cold-start-preprocessing/jars/postgresql-9.4.1209.jre6.jar"/>
+    <path refid="library.java_ee_6-java_ee_6.classpath"/>
+  </path>
+  
+  <path id="yoochoseanalytics.runtime.module.classpath">
+    <pathelement location="${yoochoseanalytics.output.dir}"/>
+    <pathelement location="${path.variable.maven_repository}/org/deeplearning4j/deeplearning4j-core/0.4-rc3.9/deeplearning4j-core-0.4-rc3.9.jar"/>
+    <pathelement location="${path.variable.maven_repository}/org/deeplearning4j/deeplearning4j-nlp/0.4-rc3.9/deeplearning4j-nlp-0.4-rc3.9.jar"/>
+    <pathelement location="${path.variable.maven_repository}/org/nd4j/nd4j-api/0.4-rc3.9/nd4j-api-0.4-rc3.9.jar"/>
+    <pathelement location="${path.variable.maven_repository}/org/nd4j/canova-api/0.0.0.15/canova-api-0.0.0.15.jar"/>
+    <pathelement location="${path.variable.maven_repository}/org/slf4j/jcl-over-slf4j/1.7.10/jcl-over-slf4j-1.7.10.jar"/>
+    <pathelement location="${basedir}/../../Documents/code/Thesis-cold-start-preprocessing/jars/javax.mail.jar"/>
+    <pathelement location="${basedir}/../../Documents/softwares/derby/db-derby-10.12.1.1-bin/lib/derby.jar"/>
+    <pathelement location="${basedir}/../../Documents/softwares/derby/db-derby-10.12.1.1-bin/lib/derbyclient.jar"/>
+    <pathelement location="${basedir}/../../Documents/code/Thesis-cold-start-preprocessing/jars/postgresql-9.4.1209.jre6.jar"/>
+    <path refid="library.java_ee_6-java_ee_6.classpath"/>
+  </path>
+  
+  
+  <patternset id="excluded.from.module.yoochoseanalytics">
+    <patternset refid="ignored.files"/>
+  </patternset>
+  
+  <patternset id="excluded.from.compilation.yoochoseanalytics">
+    <patternset refid="excluded.from.module.yoochoseanalytics"/>
+  </patternset>
+  
+  <path id="yoochoseanalytics.module.sourcepath">
+    <dirset dir="${module.yoochoseanalytics.basedir}">
+      <include name="src"/>
+    </dirset>
+  </path>
+  
+  
+  <target name="compile.module.yoochoseanalytics" depends="compile.module.yoochoseanalytics.production,compile.module.yoochoseanalytics.tests" description="Compile module YooChoseAnalytics"/>
+  
+  <target name="compile.module.yoochoseanalytics.production" depends="register.custom.compilers" description="Compile module YooChoseAnalytics; production classes">
+    <mkdir dir="${yoochoseanalytics.output.dir}"/>
+    <javac2 destdir="${yoochoseanalytics.output.dir}" debug="${compiler.debug}" nowarn="${compiler.generate.no.warnings}" memorymaximumsize="${compiler.max.memory}" fork="true" executable="${module.jdk.bin.yoochoseanalytics}/javac">
+      <compilerarg line="${compiler.args.yoochoseanalytics}"/>
+      <bootclasspath refid="yoochoseanalytics.module.bootclasspath"/>
+      <classpath refid="yoochoseanalytics.module.production.classpath"/>
+      <src refid="yoochoseanalytics.module.sourcepath"/>
+      <patternset refid="excluded.from.compilation.yoochoseanalytics"/>
+    </javac2>
+    
+    <copy todir="${yoochoseanalytics.output.dir}">
+      <fileset dir="${module.yoochoseanalytics.basedir}/src">
+        <patternset refid="compiler.resources"/>
+        <type type="file"/>
+      </fileset>
+    </copy>
+  </target>
+  
+  <target name="compile.module.yoochoseanalytics.tests" depends="register.custom.compilers,compile.module.yoochoseanalytics.production" description="compile module YooChoseAnalytics; test classes" unless="skip.tests"/>
+  
+  <target name="clean.module.yoochoseanalytics" description="cleanup module">
+    <delete dir="${yoochoseanalytics.output.dir}"/>
+    <delete dir="${yoochoseanalytics.testoutput.dir}"/>
+  </target>
+</project>

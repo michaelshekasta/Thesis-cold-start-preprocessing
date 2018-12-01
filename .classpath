@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
+	<classpathentry kind="lib" path="C:/Users/Michael/.m2/repository/org/deeplearning4j/deeplearning4j-core/0.4-rc3.9/deeplearning4j-core-0.4-rc3.9.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Michael/.m2/repository/org/deeplearning4j/deeplearning4j-nlp/0.4-rc3.9/deeplearning4j-nlp-0.4-rc3.9.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Michael/.m2/repository/org/nd4j/nd4j-api/0.4-rc3.9/nd4j-api-0.4-rc3.9.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Michael/.m2/repository/org/nd4j/canova-api/0.0.0.15/canova-api-0.0.0.15.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Michael/.m2/repository/org/slf4j/jcl-over-slf4j/1.7.10/jcl-over-slf4j-1.7.10.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Michael/Documents/code/Thesis-cold-start-preprocessing/jars/javax.mail.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Michael/Documents/softwares/derby/db-derby-10.12.1.1-bin/lib/derby.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Michael/Documents/softwares/derby/db-derby-10.12.1.1-bin/lib/derbyclient.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Michael/Documents/code/Thesis-cold-start-preprocessing/jars/postgresql-9.4.1209.jre6.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
